@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:UMLLabProfile="http:///schemas/UMLLabProfile/NS/0" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http:///schemas/UMLLabProfile/NS/0 pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile">
+  <uml:Model xmi:id="_mcDuADpPEe-9uu6I5gfVig" name="mascotAPP1">
+    <eAnnotations xmi:id="_mtCwUDpPEe-9uu6I5gfVig" source="http://ns.yatta.de/umllab">
+      <contents xmi:type="ecore:EAnnotation" xmi:id="_mtD-cDpPEe-9uu6I5gfVig" source="codegen">
+        <details xmi:id="_mtFzoDpPEe-9uu6I5gfVig" key="codegenDirectory" value="/mascotAPP1/src"/>
+        <details xmi:id="_nXD9sDpPEe-9uu6I5gfVig" key="AssociatedSourceCode" value="/mascotAPP1/src/mascotAPP1/entidades/Mascota.java;1722490506/1;/mascotAPP1/src/mascotAPP1/entidades/Usuario.java;1864664000/1;"/>
+      </contents>
+    </eAnnotations>
+    <elementImport xmi:id="_nNzUADpPEe-9uu6I5gfVig">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+    </elementImport>
+    <elementImport xmi:id="_nN0iIDpPEe-9uu6I5gfVig">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#byte"/>
+    </elementImport>
+    <elementImport xmi:id="_nN0iITpPEe-9uu6I5gfVig">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#char"/>
+    </elementImport>
+    <elementImport xmi:id="_nN1JMDpPEe-9uu6I5gfVig">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#double"/>
+    </elementImport>
+    <elementImport xmi:id="_nN1wQDpPEe-9uu6I5gfVig">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#float"/>
+    </elementImport>
+    <elementImport xmi:id="_nN2XUDpPEe-9uu6I5gfVig">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+    </elementImport>
+    <elementImport xmi:id="_nN2XUTpPEe-9uu6I5gfVig">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#long"/>
+    </elementImport>
+    <elementImport xmi:id="_nN2-YDpPEe-9uu6I5gfVig">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#short"/>
+    </elementImport>
+    <elementImport xmi:id="_nN4zkDpPEe-9uu6I5gfVig">
+      <importedElement xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+    </elementImport>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nLcjkDpPEe-9uu6I5gfVig" name="mascotAPP1">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nLg1ADpPEe-9uu6I5gfVig" name="enumeraciones">
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_nP9QIDpPEe-9uu6I5gfVig" name="SexoAnimal"/>
+        <packagedElement xmi:type="uml:Enumeration" xmi:id="_nQT1cDpPEe-9uu6I5gfVig" name="SexoHumano"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_nMQb4DpPEe-9uu6I5gfVig" name="entidades">
+        <packagedElement xmi:type="uml:Class" xmi:id="_nNnGwDpPEe-9uu6I5gfVig" name="Mascota">
+          <ownedAttribute xmi:id="_nRGfoDpPEe-9uu6I5gfVig" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRIU0DpPEe-9uu6I5gfVig" name="apodo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRL_MDpPEe-9uu6I5gfVig" name="tipo">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRMmQDpPEe-9uu6I5gfVig" name="color">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRN0YDpPEe-9uu6I5gfVig" name="edad">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRPCgDpPEe-9uu6I5gfVig" name="cola">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRPpkDpPEe-9uu6I5gfVig" name="raza" type="_nQuFIDpPEe-9uu6I5gfVig" association="_nR37sDpPEe-9uu6I5gfVig"/>
+          <ownedAttribute xmi:id="_nRQ3sDpPEe-9uu6I5gfVig" name="sexo" type="_nP9QIDpPEe-9uu6I5gfVig" association="_nR5J0DpPEe-9uu6I5gfVig"/>
+          <ownedAttribute xmi:id="_nRRewDpPEe-9uu6I5gfVig" name="energia">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+          </ownedAttribute>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRoEEDpPEe-9uu6I5gfVig" name="Mascota" specification="_nN_hQDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRoEETpPEe-9uu6I5gfVig" type="_nNnGwDpPEe-9uu6I5gfVig" direction="return"/>
+            <language>java</language>
+            <body>this.energia = 1000;&#xD;
+&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRpSMDpPEe-9uu6I5gfVig" name="Mascota" specification="_nOFA0DpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRpSMTpPEe-9uu6I5gfVig" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nRpSMjpPEe-9uu6I5gfVig" name="apodo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nRpSMzpPEe-9uu6I5gfVig" name="tipo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nRpSNDpPEe-9uu6I5gfVig" type="_nNnGwDpPEe-9uu6I5gfVig" direction="return"/>
+            <language>java</language>
+            <body>this.nombre = nombre;&#xD;
+		this.apodo = apodo;&#xD;
+		this.tipo = tipo;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRp5QDpPEe-9uu6I5gfVig" name="toString" specification="_nOOKwDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRqgUDpPEe-9uu6I5gfVig" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Mascota [&quot; + (nombre != null ? &quot;nombre=&quot; + nombre + &quot;, &quot; : &quot;&quot;)&#xD;
+				+ (apodo != null ? &quot;apodo=&quot; + apodo + &quot;, &quot; : &quot;&quot;) + (tipo != null ? &quot;tipo=&quot; + tipo + &quot;, &quot; : &quot;&quot;)&#xD;
+				+ (color != null ? &quot;color=&quot; + color + &quot;, &quot; : &quot;&quot;) + (edad != null ? &quot;edad=&quot; + edad + &quot;, &quot; : &quot;&quot;) + &quot;cola=&quot;&#xD;
+				+ cola + &quot;, &quot; + (raza != null ? &quot;raza=&quot; + raza + &quot;, &quot; : &quot;&quot;)&#xD;
+				+ (sexo != null ? &quot;sexo=&quot; + sexo + &quot;, &quot; : &quot;&quot;) + &quot;energia=&quot; + energia + &quot;]&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_nN_hQDpPEe-9uu6I5gfVig" name="Mascota" method="_nRoEEDpPEe-9uu6I5gfVig">
+            <eAnnotations xmi:id="_nOBWcDpPEe-9uu6I5gfVig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_nOB9gDpPEe-9uu6I5gfVig" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_nOB9gTpPEe-9uu6I5gfVig" type="_nNnGwDpPEe-9uu6I5gfVig" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nOFA0DpPEe-9uu6I5gfVig" name="Mascota" method="_nRpSMDpPEe-9uu6I5gfVig">
+            <eAnnotations xmi:id="_nOMVkDpPEe-9uu6I5gfVig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_nOM8oDpPEe-9uu6I5gfVig" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_nOFn4DpPEe-9uu6I5gfVig" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nOGO8DpPEe-9uu6I5gfVig" name="apodo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nOG2ADpPEe-9uu6I5gfVig" name="tipo">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nOM8oTpPEe-9uu6I5gfVig" type="_nNnGwDpPEe-9uu6I5gfVig" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nOOKwDpPEe-9uu6I5gfVig" name="toString" method="_nRp5QDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nOPY4DpPEe-9uu6I5gfVig" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nOfQgDpPEe-9uu6I5gfVig" name="Usuario">
+          <ownedAttribute xmi:id="_nRSs4DpPEe-9uu6I5gfVig" name="nombre">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRVJIDpPEe-9uu6I5gfVig" name="apellido">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRW-UDpPEe-9uu6I5gfVig" name="dni">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRaBoDpPEe-9uu6I5gfVig" name="nacimiento" type="_nQKrgDpPEe-9uu6I5gfVig"/>
+          <ownedAttribute xmi:id="_nRdsADpPEe-9uu6I5gfVig" name="pais">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRfhMDpPEe-9uu6I5gfVig" name="sexo" type="_nQT1cDpPEe-9uu6I5gfVig" association="_nR6X8DpPEe-9uu6I5gfVig"/>
+          <ownedAttribute xmi:id="_nRgIQDpPEe-9uu6I5gfVig" name="mascotas" type="_nNnGwDpPEe-9uu6I5gfVig" isOrdered="true" association="_nSBFoDpPEe-9uu6I5gfVig">
+            <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_nRgvUDpPEe-9uu6I5gfVig" value="*"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:id="_nRhWYDpPEe-9uu6I5gfVig" name="mascotaFavorita" type="_nNnGwDpPEe-9uu6I5gfVig" association="_nR7mEDpPEe-9uu6I5gfVig"/>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRrucDpPEe-9uu6I5gfVig" name="Usuario" specification="_nQ2A8DpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRrucTpPEe-9uu6I5gfVig" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nRrucjpPEe-9uu6I5gfVig" name="apellido">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nRruczpPEe-9uu6I5gfVig" name="dni">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nRrudDpPEe-9uu6I5gfVig" name="nacimiento" type="_nQKrgDpPEe-9uu6I5gfVig"/>
+            <ownedParameter xmi:id="_nRrudTpPEe-9uu6I5gfVig" name="pais">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nRrudjpPEe-9uu6I5gfVig" name="sexo" type="_nQT1cDpPEe-9uu6I5gfVig"/>
+            <ownedParameter xmi:id="_nRrudzpPEe-9uu6I5gfVig" name="mascotas" type="_nQQLEDpPEe-9uu6I5gfVig"/>
+            <ownedParameter xmi:id="_nRrueDpPEe-9uu6I5gfVig" type="_nOfQgDpPEe-9uu6I5gfVig" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.nombre = nombre;&#xD;
+		this.apellido = apellido;&#xD;
+		this.dni = dni;&#xD;
+		this.nacimiento = nacimiento;&#xD;
+		this.pais = pais;&#xD;
+		this.sexo = sexo;&#xD;
+		this.mascotas = mascotas;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRsVgDpPEe-9uu6I5gfVig" name="getNombre" specification="_nOvIIDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRsVgTpPEe-9uu6I5gfVig" direction="return">
+              <name xsi:nil="true"/>
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return nombre;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRtjoDpPEe-9uu6I5gfVig" name="setNombre" specification="_nOxkYDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRtjoTpPEe-9uu6I5gfVig" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.nombre = nombre;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRuKsDpPEe-9uu6I5gfVig" name="getApellido" specification="_nOzZkDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRuKsTpPEe-9uu6I5gfVig" direction="return">
+              <name xsi:nil="true"/>
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return apellido;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRuxwDpPEe-9uu6I5gfVig" name="setApellido" specification="_nO1OwDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRuxwTpPEe-9uu6I5gfVig" name="apellido">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.apellido = apellido;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRvY0DpPEe-9uu6I5gfVig" name="getDni" specification="_nO3D8DpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRvY0TpPEe-9uu6I5gfVig" direction="return">
+              <name xsi:nil="true"/>
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return dni;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRv_4DpPEe-9uu6I5gfVig" name="setDni" specification="_nO45IDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRv_4TpPEe-9uu6I5gfVig" name="dni">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.dni = dni;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRwm8DpPEe-9uu6I5gfVig" name="getNacimiento" specification="_nO6HQDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRwm8TpPEe-9uu6I5gfVig" type="_nQKrgDpPEe-9uu6I5gfVig" direction="return">
+              <name xsi:nil="true"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return nacimiento;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRycIDpPEe-9uu6I5gfVig" name="setNacimiento" specification="_nQ98wDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRycITpPEe-9uu6I5gfVig" name="nacimiento" type="_nQKrgDpPEe-9uu6I5gfVig"/>
+            <language>java</language>
+            <body>this.nacimiento = nacimiento;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRzDMDpPEe-9uu6I5gfVig" name="getPais" specification="_nO8jgDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRzDMTpPEe-9uu6I5gfVig" direction="return">
+              <name xsi:nil="true"/>
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return pais;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRzqQDpPEe-9uu6I5gfVig" name="setPais" specification="_nO-_wDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRzqQTpPEe-9uu6I5gfVig" name="pais">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>this.pais = pais;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedBehavior xmi:type="uml:OpaqueBehavior" xmi:id="_nRzqQjpPEe-9uu6I5gfVig" name="toString" specification="_nPCqIDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nRzqQzpPEe-9uu6I5gfVig" direction="return">
+              <name xsi:nil="true"/>
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <language>java</language>
+            <body>return &quot;Usuario [&quot; + (nombre != null ? &quot;nombre=&quot; + nombre + &quot;, &quot; : &quot;&quot;)&#xD;
+				+ (apellido != null ? &quot;apellido=&quot; + apellido + &quot;, &quot; : &quot;&quot;) + (dni != null ? &quot;dni=&quot; + dni + &quot;, &quot; : &quot;&quot;)&#xD;
+				+ (nacimiento != null ? &quot;nacimiento=&quot; + nacimiento + &quot;, &quot; : &quot;&quot;)&#xD;
+				+ (pais != null ? &quot;pais=&quot; + pais + &quot;, &quot; : &quot;&quot;) + (sexo != null ? &quot;sexo=&quot; + sexo + &quot;, &quot; : &quot;&quot;)&#xD;
+				+ (mascotas != null ? &quot;mascotas=&quot; + mascotas + &quot;, &quot; : &quot;&quot;)&#xD;
+				+ (mascotaFavorita != null ? &quot;mascotaFavorita=&quot; + mascotaFavorita : &quot;&quot;) + &quot;]&quot;;&#xD;
+	</body>
+          </ownedBehavior>
+          <ownedOperation xmi:id="_nOmlQDpPEe-9uu6I5gfVig" name="Usuario">
+            <eAnnotations xmi:id="_nOnMUDpPEe-9uu6I5gfVig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_nOnzYDpPEe-9uu6I5gfVig" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_nOpBgTpPEe-9uu6I5gfVig" type="_nOfQgDpPEe-9uu6I5gfVig" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nOvIIDpPEe-9uu6I5gfVig" name="getNombre" method="_nRsVgDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nOwWQDpPEe-9uu6I5gfVig" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nOxkYDpPEe-9uu6I5gfVig" name="setNombre" method="_nRtjoDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nOyLcDpPEe-9uu6I5gfVig" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nOzZkDpPEe-9uu6I5gfVig" name="getApellido" method="_nRuKsDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nO0AoDpPEe-9uu6I5gfVig" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nO1OwDpPEe-9uu6I5gfVig" name="setApellido" method="_nRuxwDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nO110DpPEe-9uu6I5gfVig" name="apellido">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nO3D8DpPEe-9uu6I5gfVig" name="getDni" method="_nRvY0DpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nO3rADpPEe-9uu6I5gfVig" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nO45IDpPEe-9uu6I5gfVig" name="setDni" method="_nRv_4DpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nO45ITpPEe-9uu6I5gfVig" name="dni">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nO6HQDpPEe-9uu6I5gfVig" name="getNacimiento" method="_nRwm8DpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nQ8uoDpPEe-9uu6I5gfVig" type="_nQKrgDpPEe-9uu6I5gfVig" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nO8jgDpPEe-9uu6I5gfVig" name="getPais" method="_nRzDMDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nO9xoDpPEe-9uu6I5gfVig" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nO-_wDpPEe-9uu6I5gfVig" name="setPais" method="_nRzqQDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nO_m0DpPEe-9uu6I5gfVig" name="pais">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nPCqIDpPEe-9uu6I5gfVig" name="toString" method="_nRzqQjpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nPD4QDpPEe-9uu6I5gfVig" direction="return">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nQ2A8DpPEe-9uu6I5gfVig" name="Usuario" method="_nRrucDpPEe-9uu6I5gfVig">
+            <eAnnotations xmi:id="_nQ5EQDpPEe-9uu6I5gfVig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+              <details xmi:id="_nQ5rUDpPEe-9uu6I5gfVig" key="create"/>
+            </eAnnotations>
+            <ownedParameter xmi:id="_nQ2oADpPEe-9uu6I5gfVig" name="nombre">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nQ3PEDpPEe-9uu6I5gfVig" name="apellido">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nQ3PETpPEe-9uu6I5gfVig" name="dni">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nQ32IDpPEe-9uu6I5gfVig" name="nacimiento" type="_nQKrgDpPEe-9uu6I5gfVig"/>
+            <ownedParameter xmi:id="_nQ32ITpPEe-9uu6I5gfVig" name="pais">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+            </ownedParameter>
+            <ownedParameter xmi:id="_nQ4dMDpPEe-9uu6I5gfVig" name="sexo" type="_nQT1cDpPEe-9uu6I5gfVig"/>
+            <ownedParameter xmi:id="_nQ4dMTpPEe-9uu6I5gfVig" name="mascotas" type="_nQQLEDpPEe-9uu6I5gfVig"/>
+            <ownedParameter xmi:id="_nQ5rUTpPEe-9uu6I5gfVig" type="_nOfQgDpPEe-9uu6I5gfVig" direction="return"/>
+          </ownedOperation>
+          <ownedOperation xmi:id="_nQ98wDpPEe-9uu6I5gfVig" name="setNacimiento" method="_nRycIDpPEe-9uu6I5gfVig">
+            <ownedParameter xmi:id="_nQ98wTpPEe-9uu6I5gfVig" name="nacimiento" type="_nQKrgDpPEe-9uu6I5gfVig"/>
+          </ownedOperation>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_nQuFIDpPEe-9uu6I5gfVig" name="T"/>
+        <packagedElement xmi:type="uml:Association" xmi:id="_nR37sDpPEe-9uu6I5gfVig" name="" memberEnd="_nRPpkDpPEe-9uu6I5gfVig _nR37sTpPEe-9uu6I5gfVig">
+          <ownedEnd xmi:id="_nR37sTpPEe-9uu6I5gfVig" name="" type="_nNnGwDpPEe-9uu6I5gfVig" association="_nR37sDpPEe-9uu6I5gfVig"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_nR5J0DpPEe-9uu6I5gfVig" name="" memberEnd="_nRQ3sDpPEe-9uu6I5gfVig _nR5J0TpPEe-9uu6I5gfVig">
+          <ownedEnd xmi:id="_nR5J0TpPEe-9uu6I5gfVig" name="" type="_nNnGwDpPEe-9uu6I5gfVig" association="_nR5J0DpPEe-9uu6I5gfVig"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_nR6X8DpPEe-9uu6I5gfVig" name="" memberEnd="_nRfhMDpPEe-9uu6I5gfVig _nR6X8TpPEe-9uu6I5gfVig">
+          <ownedEnd xmi:id="_nR6X8TpPEe-9uu6I5gfVig" name="" type="_nOfQgDpPEe-9uu6I5gfVig" association="_nR6X8DpPEe-9uu6I5gfVig"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_nR7mEDpPEe-9uu6I5gfVig" name="" memberEnd="_nRhWYDpPEe-9uu6I5gfVig _nR7mETpPEe-9uu6I5gfVig">
+          <ownedEnd xmi:id="_nR7mETpPEe-9uu6I5gfVig" name="" type="_nOfQgDpPEe-9uu6I5gfVig" association="_nR7mEDpPEe-9uu6I5gfVig"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_nSBFoDpPEe-9uu6I5gfVig" name="" memberEnd="_nSBFoTpPEe-9uu6I5gfVig _nRgIQDpPEe-9uu6I5gfVig">
+          <ownedEnd xmi:id="_nSBFoTpPEe-9uu6I5gfVig" name="" type="_nOfQgDpPEe-9uu6I5gfVig" association="_nSBFoDpPEe-9uu6I5gfVig"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_nMg6kDpPEe-9uu6I5gfVig" name="java">
+      <packagedElement xmi:type="uml:Package" xmi:id="_nMhhoDpPEe-9uu6I5gfVig" name="util">
+        <packagedElement xmi:type="uml:DataType" xmi:id="_nQKrgDpPEe-9uu6I5gfVig" name="Date"/>
+        <packagedElement xmi:type="uml:Interface" xmi:id="_nQQLEDpPEe-9uu6I5gfVig" name="List"/>
+      </packagedElement>
+    </packagedElement>
+    <profileApplication xmi:id="_mtKFEDpPEe-9uu6I5gfVig">
+      <eAnnotations xmi:id="_mtLTMDpPEe-9uu6I5gfVig" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile-Annotation_2-UMLLabProfile"/>
+      </eAnnotations>
+      <appliedProfile href="pathmap://UMLLAB_PROFILES/UMLLab.profile.uml#UMLLabProfile"/>
+    </profileApplication>
+  </uml:Model>
+  <UMLLabProfile:TargetLanguage xmi:id="_mtNvcDpPEe-9uu6I5gfVig" base_Package="_mcDuADpPEe-9uu6I5gfVig">
+    <languageName>java</languageName>
+  </UMLLabProfile:TargetLanguage>
+  <UMLLabProfile:Generics xmi:id="_nNw3wDpPEe-9uu6I5gfVig" genericsValue="T" base_Element="_nNnGwDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nOROEDpPEe-9uu6I5gfVig" base_Element="_nOOKwDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:Annotations xmi:id="_nOScMDpPEe-9uu6I5gfVig" base_Element="_nOOKwDpPEe-9uu6I5gfVig">
+    <annotations xmi:id="_nOScMTpPEe-9uu6I5gfVig" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nOpBgDpPEe-9uu6I5gfVig" base_Element="_nOmlQDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nPFGYDpPEe-9uu6I5gfVig" base_Element="_nPCqIDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:Annotations xmi:id="_nPG7kDpPEe-9uu6I5gfVig" base_Element="_nPCqIDpPEe-9uu6I5gfVig">
+    <annotations xmi:id="_nPHioDpPEe-9uu6I5gfVig" name="Override"/>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:Reference xmi:id="_nQA6gDpPEe-9uu6I5gfVig" base_Element="_nP9QIDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:Reference xmi:id="_nQPkADpPEe-9uu6I5gfVig" base_Element="_nQKrgDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:Reference xmi:id="_nQTOYDpPEe-9uu6I5gfVig" base_Element="_nQQLEDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:Reference xmi:id="_nQVqoDpPEe-9uu6I5gfVig" base_Element="_nQT1cDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:Reference xmi:id="_nQwhYDpPEe-9uu6I5gfVig" base_Element="_nQuFIDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:Generics xmi:id="_nQ7ggDpPEe-9uu6I5gfVig" genericsValue="Mascota" base_Element="_nQ4dMTpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nRTT8DpPEe-9uu6I5gfVig" base_Element="_nRSs4DpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nRWXQDpPEe-9uu6I5gfVig" base_Element="_nRVJIDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nRXlYDpPEe-9uu6I5gfVig" base_Element="_nRW-UDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nRdE8DpPEe-9uu6I5gfVig" base_Element="_nRaBoDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_nRe6IDpPEe-9uu6I5gfVig" base_Element="_nRdsADpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:Reference xmi:id="_nSCTwDpPEe-9uu6I5gfVig" base_Element="_nSBFoDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:LegacyStyledElement xmi:id="_anDZcDpQEe-9uu6I5gfVig" base_Element="_nOfQgDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:Annotations xmi:id="_anRb4DpQEe-9uu6I5gfVig" base_Element="_nOfQgDpPEe-9uu6I5gfVig">
+    <annotations xmi:id="_anRb4TpQEe-9uu6I5gfVig" name="SuppressWarnings">
+      <annotationParameters xmi:id="_anYJkDpQEe-9uu6I5gfVig" skipName="true" skipArray="true">
+        <valueSpecifications xmi:type="uml:LiteralString" xmi:id="_anxyMDpQEe-9uu6I5gfVig" value="&quot;rawtypes&quot;"/>
+      </annotationParameters>
+    </annotations>
+  </UMLLabProfile:Annotations>
+  <UMLLabProfile:StyledElement xmi:id="_anYwoDpQEe-9uu6I5gfVig" base_Element="_nRfhMDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_anZXsDpQEe-9uu6I5gfVig" base_Element="_nRgIQDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_anZXsTpQEe-9uu6I5gfVig" base_Element="_nRhWYDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_anZ-wDpQEe-9uu6I5gfVig" base_Element="_nQ2A8DpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_anal0DpQEe-9uu6I5gfVig" base_Element="_nOvIIDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_anbM4DpQEe-9uu6I5gfVig" base_Element="_nOxkYDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_anbM4TpQEe-9uu6I5gfVig" base_Element="_nOzZkDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_ancbADpQEe-9uu6I5gfVig" base_Element="_nO1OwDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_andCEDpQEe-9uu6I5gfVig" base_Element="_nO3D8DpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_andpIDpQEe-9uu6I5gfVig" base_Element="_nO45IDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_angFYDpQEe-9uu6I5gfVig" base_Element="_nO6HQDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_angscDpQEe-9uu6I5gfVig" base_Element="_nQ98wDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_anhTgDpQEe-9uu6I5gfVig" base_Element="_nO8jgDpPEe-9uu6I5gfVig"/>
+  <UMLLabProfile:StyledElement xmi:id="_anh6kDpQEe-9uu6I5gfVig" base_Element="_nO-_wDpPEe-9uu6I5gfVig"/>
+</xmi:XMI>

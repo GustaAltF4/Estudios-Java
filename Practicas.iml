@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Practicas/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Ruleta2/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/AppRadio1/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Baraja/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EjPolimorfismo/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/EjedificioAbstract/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Electrodomesico/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GRafica/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IFgrafica/cacas/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/IFgrafica/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Scannerlibros/Scanner" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/adopcionPerro/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/calculadora_con_Interfaz/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/calculadora_con_Interfaz2/calc2Interfaz/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/coneccionesSQL/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/ejemplos/src" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/mascotAPP1/src" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

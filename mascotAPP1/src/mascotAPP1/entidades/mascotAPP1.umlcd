@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<com.yattasolutions.uml.diagrams.classifier:ClassDiagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:com.yattasolutions.uml.diagrams.classifier="http://ns.yatta-solutions.com/umllab/diagrams/classifier/1.1.0" xmi:id="_mgosADpPEe-9uu6I5gfVig">
+  <modelElement href="mascotAPP1.uml#_nMQb4DpPEe-9uu6I5gfVig"/>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_nXgpoDpPEe-9uu6I5gfVig" target="_nXkUADpPEe-9uu6I5gfVig">
+    <modelElement href="mascotAPP1.uml#_nR37sDpPEe-9uu6I5gfVig"/>
+    <nameVisual xmi:id="_nXgpoTpPEe-9uu6I5gfVig" text=""/>
+    <sourceRole xmi:id="_nXgpojpPEe-9uu6I5gfVig" aggregationKind="NONE" name="raza" navigable="true">
+      <modelElement href="mascotAPP1.uml#_nRPpkDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXgpozpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXgppDpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_nXgppTpPEe-9uu6I5gfVig" aggregationKind="NONE" name="">
+      <modelElement href="mascotAPP1.uml#_nR37sTpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXgppjpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXgppzpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_nXjF4DpPEe-9uu6I5gfVig" target="_nXkUADpPEe-9uu6I5gfVig">
+    <modelElement href="mascotAPP1.uml#_nR5J0DpPEe-9uu6I5gfVig"/>
+    <nameVisual xmi:id="_nXjF4TpPEe-9uu6I5gfVig" text=""/>
+    <sourceRole xmi:id="_nXjF4jpPEe-9uu6I5gfVig" aggregationKind="NONE" name="sexo" navigable="true">
+      <modelElement href="mascotAPP1.uml#_nRQ3sDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXjF4zpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXjF5DpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_nXjF5TpPEe-9uu6I5gfVig" aggregationKind="NONE" name="">
+      <modelElement href="mascotAPP1.uml#_nR5J0TpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXjF5jpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXjF5zpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_nYI7wDpPEe-9uu6I5gfVig" sourceAnchor="391.0,0.0" targetAnchor="0.0,143.0" target="_nXkUADpPEe-9uu6I5gfVig" source="_nYlnsDpPEe-9uu6I5gfVig">
+    <modelElement href="mascotAPP1.uml#_nSBFoDpPEe-9uu6I5gfVig"/>
+    <bendpoints xmi:id="_nfb2kDpPEe-9uu6I5gfVig" sourceY="-199" targetX="-510"/>
+    <stereotypes xmi:id="_nYReoDpPEe-9uu6I5gfVig" name="Reference">
+      <modelElement href="mascotAPP1.uml#_nSCTwDpPEe-9uu6I5gfVig"/>
+    </stereotypes>
+    <nameVisual xmi:id="_nYPpcTpPEe-9uu6I5gfVig" text="">
+      <visualProperties xmi:id="_nfm1sDpPEe-9uu6I5gfVig" position="-15.24208431349831,-8.07463580573338"/>
+    </nameVisual>
+    <sourceRole xmi:id="_nYQQgDpPEe-9uu6I5gfVig" aggregationKind="NONE" name="">
+      <modelElement href="mascotAPP1.uml#_nSBFoTpPEe-9uu6I5gfVig"/>
+      <visualProperties xmi:id="_nfmOoDpPEe-9uu6I5gfVig" position="0.5860556369169103,-64.60838045136245"/>
+      <visibility xmi:id="_nYgIITpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYgIIDpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_nYQQgTpPEe-9uu6I5gfVig" aggregationKind="NONE" name="mascotas" navigable="true">
+      <modelElement href="mascotAPP1.uml#_nRgIQDpPEe-9uu6I5gfVig"/>
+      <visualProperties xmi:id="_nfncwDpPEe-9uu6I5gfVig" position="-534.1406534224935,-183.37862026632973"/>
+      <visibility xmi:id="_nYgvMTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYgvMDpPEe-9uu6I5gfVig" label="1..*" max="-1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_nYLYADpPEe-9uu6I5gfVig" sourceAnchor="205.0,287.0" targetAnchor="782.0,201.0" target="_nYlnsDpPEe-9uu6I5gfVig" source="_nXkUADpPEe-9uu6I5gfVig">
+    <modelElement href="mascotAPP1.uml#_nR7mEDpPEe-9uu6I5gfVig"/>
+    <bendpoints xmi:id="_nfaBYDpPEe-9uu6I5gfVig" sourceY="256" targetX="324"/>
+    <nameVisual xmi:id="_nYObUDpPEe-9uu6I5gfVig" text="">
+      <visualProperties xmi:id="_nfhWIDpPEe-9uu6I5gfVig" position="-1.66194038698373,-47.22651036445575"/>
+    </nameVisual>
+    <sourceRole xmi:id="_nYPCYDpPEe-9uu6I5gfVig" aggregationKind="NONE" name="mascotaFavorita" navigable="true">
+      <modelElement href="mascotAPP1.uml#_nRhWYDpPEe-9uu6I5gfVig"/>
+      <visualProperties xmi:id="_nfcdoDpPEe-9uu6I5gfVig" position="-42.46325404000561,35.22671797715958"/>
+      <visibility xmi:id="_nYe6ATpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYe6ADpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_nYPpcDpPEe-9uu6I5gfVig" aggregationKind="NONE" name="">
+      <modelElement href="mascotAPP1.uml#_nR7mETpPEe-9uu6I5gfVig"/>
+      <visualProperties xmi:id="_nfikQDpPEe-9uu6I5gfVig" position="324.58605563691697,96.5294864463815"/>
+      <visibility xmi:id="_nYfhETpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYfhEDpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <edges xsi:type="com.yattasolutions.uml.diagrams.classifier:AssociationVisual" xmi:id="_nYlAoDpPEe-9uu6I5gfVig" target="_nYlnsDpPEe-9uu6I5gfVig">
+    <modelElement href="mascotAPP1.uml#_nR6X8DpPEe-9uu6I5gfVig"/>
+    <nameVisual xmi:id="_nYlAoTpPEe-9uu6I5gfVig" text=""/>
+    <sourceRole xmi:id="_nYlAojpPEe-9uu6I5gfVig" aggregationKind="NONE" name="sexo" navigable="true">
+      <modelElement href="mascotAPP1.uml#_nRfhMDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYlAozpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYlApDpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+    </sourceRole>
+    <targetRole xmi:id="_nYlApTpPEe-9uu6I5gfVig" aggregationKind="NONE" name="">
+      <modelElement href="mascotAPP1.uml#_nR6X8TpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYlApjpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYlApzpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+    </targetRole>
+  </edges>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nXkUADpPEe-9uu6I5gfVig" name="Mascota" associationsIn="_nXgpoDpPEe-9uu6I5gfVig _nXjF4DpPEe-9uu6I5gfVig _nYI7wDpPEe-9uu6I5gfVig" associationsOut="_nYLYADpPEe-9uu6I5gfVig">
+    <modelElement href="mascotAPP1.uml#_nNnGwDpPEe-9uu6I5gfVig"/>
+    <visualProperties xmi:id="_nXkUATpPEe-9uu6I5gfVig" position="157.0,-497.0" size="-1.0,-1.0"/>
+    <stereotypes xmi:id="_nXkUAjpPEe-9uu6I5gfVig" name="Generics">
+      <modelElement href="mascotAPP1.uml#_nNw3wDpPEe-9uu6I5gfVig"/>
+    </stereotypes>
+    <visibility xmi:id="_nXkUAzpPEe-9uu6I5gfVig" label="+"/>
+    <attributes xmi:id="_nXkUBDpPEe-9uu6I5gfVig" name="nombre">
+      <modelElement href="mascotAPP1.uml#_nRGfoDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXkUBTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUBjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nXkUBzpPEe-9uu6I5gfVig" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nXkUCDpPEe-9uu6I5gfVig" name="apodo">
+      <modelElement href="mascotAPP1.uml#_nRIU0DpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXkUCTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUCjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nXkUCzpPEe-9uu6I5gfVig" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nXkUDDpPEe-9uu6I5gfVig" name="tipo">
+      <modelElement href="mascotAPP1.uml#_nRL_MDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXkUDTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUDjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nXkUDzpPEe-9uu6I5gfVig" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nXkUEDpPEe-9uu6I5gfVig" name="color">
+      <modelElement href="mascotAPP1.uml#_nRMmQDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXkUETpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUEjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nXkUEzpPEe-9uu6I5gfVig" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nXkUFDpPEe-9uu6I5gfVig" name="edad">
+      <modelElement href="mascotAPP1.uml#_nRN0YDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXkUFTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUFjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nXkUFzpPEe-9uu6I5gfVig" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nXkUGDpPEe-9uu6I5gfVig" name="cola">
+      <modelElement href="mascotAPP1.uml#_nRPCgDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXkUGTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUGjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nXkUGzpPEe-9uu6I5gfVig" name="boolean">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#boolean"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nXkUHDpPEe-9uu6I5gfVig" name="raza">
+      <modelElement href="mascotAPP1.uml#_nRPpkDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXkUHTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUHjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nXkUHzpPEe-9uu6I5gfVig" name="T">
+        <modelElement href="mascotAPP1.uml#_nQuFIDpPEe-9uu6I5gfVig"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nXkUIDpPEe-9uu6I5gfVig" name="sexo">
+      <modelElement href="mascotAPP1.uml#_nRQ3sDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXkUITpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUIjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nXkUIzpPEe-9uu6I5gfVig" name="SexoAnimal">
+        <modelElement href="mascotAPP1.uml#_nP9QIDpPEe-9uu6I5gfVig"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nXkUJDpPEe-9uu6I5gfVig" name="energia">
+      <modelElement href="mascotAPP1.uml#_nRRewDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nXkUJTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUJjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nXkUJzpPEe-9uu6I5gfVig" name="int">
+        <modelElement href="pathmap://UML_LIBRARIES/JavaPrimitiveTypes.library.uml#int"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_nXkUKDpPEe-9uu6I5gfVig" name="Mascota">
+      <modelElement href="mascotAPP1.uml#_nN_hQDpPEe-9uu6I5gfVig"/>
+      <keywords xmi:id="_nXkUKTpPEe-9uu6I5gfVig" keyword="create"/>
+      <visibility xmi:id="_nXkUKjpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUKzpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nXkULDpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nOB9gTpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nXkULTpPEe-9uu6I5gfVig" name="Mascota">
+          <modelElement href="mascotAPP1.uml#_nNnGwDpPEe-9uu6I5gfVig"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nXkULjpPEe-9uu6I5gfVig" name="Mascota">
+      <modelElement href="mascotAPP1.uml#_nOFA0DpPEe-9uu6I5gfVig"/>
+      <keywords xmi:id="_nXkULzpPEe-9uu6I5gfVig" keyword="create"/>
+      <visibility xmi:id="_nXkUMDpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXkUMTpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nXkUMjpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nOM8oTpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nXkUMzpPEe-9uu6I5gfVig" name="Mascota">
+          <modelElement href="mascotAPP1.uml#_nNnGwDpPEe-9uu6I5gfVig"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_nXkUNDpPEe-9uu6I5gfVig" name="nombre">
+        <modelElement href="mascotAPP1.uml#_nOFn4DpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nXkUNTpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nXkUNjpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nXkUNzpPEe-9uu6I5gfVig" name="apodo">
+        <modelElement href="mascotAPP1.uml#_nOGO8DpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nXkUODpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nXk7EDpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nXk7ETpPEe-9uu6I5gfVig" name="tipo">
+        <modelElement href="mascotAPP1.uml#_nOG2ADpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nXk7EjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nXk7EzpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nXk7FDpPEe-9uu6I5gfVig" name="toString">
+      <modelElement href="mascotAPP1.uml#_nOOKwDpPEe-9uu6I5gfVig"/>
+      <stereotypes xmi:id="_nXk7FTpPEe-9uu6I5gfVig" name="LegacyStyledElement">
+        <modelElement href="mascotAPP1.uml#_nOROEDpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <stereotypes xmi:id="_nXk7FjpPEe-9uu6I5gfVig" name="Annotations">
+        <modelElement href="mascotAPP1.uml#_nOScMDpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <visibility xmi:id="_nXk7FzpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nXk7GDpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nXk7GTpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nOPY4DpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nXk7GjpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+  </nodes>
+  <nodes xsi:type="com.yattasolutions.uml.diagrams.classifier:ClassifierVisual" xmi:id="_nYlnsDpPEe-9uu6I5gfVig" name="Usuario" associationsIn="_nYLYADpPEe-9uu6I5gfVig _nYlAoDpPEe-9uu6I5gfVig" associationsOut="_nYI7wDpPEe-9uu6I5gfVig">
+    <modelElement href="mascotAPP1.uml#_nOfQgDpPEe-9uu6I5gfVig"/>
+    <visualProperties xmi:id="_nYlnsTpPEe-9uu6I5gfVig" position="-744.0,-155.0" size="-1.0,-1.0"/>
+    <visibility xmi:id="_nYlnsjpPEe-9uu6I5gfVig" label="+"/>
+    <attributes xmi:id="_nYlnszpPEe-9uu6I5gfVig" name="nombre">
+      <modelElement href="mascotAPP1.uml#_nRSs4DpPEe-9uu6I5gfVig"/>
+      <stereotypes xmi:id="_nYlntDpPEe-9uu6I5gfVig" name="LegacyStyledElement">
+        <modelElement href="mascotAPP1.uml#_nRTT8DpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <visibility xmi:id="_nYlntTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYlntjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nYlntzpPEe-9uu6I5gfVig" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nYlnuDpPEe-9uu6I5gfVig" name="apellido">
+      <modelElement href="mascotAPP1.uml#_nRVJIDpPEe-9uu6I5gfVig"/>
+      <stereotypes xmi:id="_nYlnuTpPEe-9uu6I5gfVig" name="LegacyStyledElement">
+        <modelElement href="mascotAPP1.uml#_nRWXQDpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <visibility xmi:id="_nYlnujpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYlnuzpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nYlnvDpPEe-9uu6I5gfVig" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nYlnvTpPEe-9uu6I5gfVig" name="dni">
+      <modelElement href="mascotAPP1.uml#_nRW-UDpPEe-9uu6I5gfVig"/>
+      <stereotypes xmi:id="_nYlnvjpPEe-9uu6I5gfVig" name="LegacyStyledElement">
+        <modelElement href="mascotAPP1.uml#_nRXlYDpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <visibility xmi:id="_nYlnvzpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYlnwDpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nYlnwTpPEe-9uu6I5gfVig" name="Integer">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nYlnwjpPEe-9uu6I5gfVig" name="nacimiento">
+      <modelElement href="mascotAPP1.uml#_nRaBoDpPEe-9uu6I5gfVig"/>
+      <stereotypes xmi:id="_nYlnwzpPEe-9uu6I5gfVig" name="LegacyStyledElement">
+        <modelElement href="mascotAPP1.uml#_nRdE8DpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <visibility xmi:id="_nYlnxDpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYlnxTpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nYlnxjpPEe-9uu6I5gfVig" name="Date">
+        <modelElement href="mascotAPP1.uml#_nQKrgDpPEe-9uu6I5gfVig"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nYlnxzpPEe-9uu6I5gfVig" name="pais">
+      <modelElement href="mascotAPP1.uml#_nRdsADpPEe-9uu6I5gfVig"/>
+      <stereotypes xmi:id="_nYlnyDpPEe-9uu6I5gfVig" name="LegacyStyledElement">
+        <modelElement href="mascotAPP1.uml#_nRe6IDpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <visibility xmi:id="_nYlnyTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYlnyjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nYlnyzpPEe-9uu6I5gfVig" name="String">
+        <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nYlnzDpPEe-9uu6I5gfVig" name="sexo">
+      <modelElement href="mascotAPP1.uml#_nRfhMDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYlnzTpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYlnzjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nYlnzzpPEe-9uu6I5gfVig" name="SexoHumano">
+        <modelElement href="mascotAPP1.uml#_nQT1cDpPEe-9uu6I5gfVig"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nYln0DpPEe-9uu6I5gfVig" name="mascotas">
+      <modelElement href="mascotAPP1.uml#_nRgIQDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYln0TpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYln0jpPEe-9uu6I5gfVig" label="1..*" max="-1" min="1"/>
+      <type xmi:id="_nYln0zpPEe-9uu6I5gfVig" name="Mascota">
+        <modelElement href="mascotAPP1.uml#_nNnGwDpPEe-9uu6I5gfVig"/>
+      </type>
+    </attributes>
+    <attributes xmi:id="_nYln1DpPEe-9uu6I5gfVig" name="mascotaFavorita">
+      <modelElement href="mascotAPP1.uml#_nRhWYDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYln1TpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYln1jpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <type xmi:id="_nYln1zpPEe-9uu6I5gfVig" name="Mascota">
+        <modelElement href="mascotAPP1.uml#_nNnGwDpPEe-9uu6I5gfVig"/>
+      </type>
+    </attributes>
+    <operations xmi:id="_nYln2DpPEe-9uu6I5gfVig" name="Usuario">
+      <modelElement href="mascotAPP1.uml#_nOmlQDpPEe-9uu6I5gfVig"/>
+      <keywords xmi:id="_nYln2TpPEe-9uu6I5gfVig" keyword="create"/>
+      <stereotypes xmi:id="_nYln2jpPEe-9uu6I5gfVig" name="LegacyStyledElement">
+        <modelElement href="mascotAPP1.uml#_nOpBgDpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <visibility xmi:id="_nYln2zpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYln3DpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nYln3TpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nOpBgTpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nYln3jpPEe-9uu6I5gfVig" name="Usuario">
+          <modelElement href="mascotAPP1.uml#_nOfQgDpPEe-9uu6I5gfVig"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nYln3zpPEe-9uu6I5gfVig" name="getNombre">
+      <modelElement href="mascotAPP1.uml#_nOvIIDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYln4DpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYln4TpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nYln4jpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nOwWQDpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nYln4zpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nYln5DpPEe-9uu6I5gfVig" name="setNombre">
+      <modelElement href="mascotAPP1.uml#_nOxkYDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYln5TpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYln5jpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nYln5zpPEe-9uu6I5gfVig" name="nombre">
+        <modelElement href="mascotAPP1.uml#_nOyLcDpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYln6DpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYln6TpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nYln6jpPEe-9uu6I5gfVig" name="getApellido">
+      <modelElement href="mascotAPP1.uml#_nOzZkDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYln6zpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYln7DpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nYln7TpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nO0AoDpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nYln7jpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nYln7zpPEe-9uu6I5gfVig" name="setApellido">
+      <modelElement href="mascotAPP1.uml#_nO1OwDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYmOwDpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYmOwTpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nYmOwjpPEe-9uu6I5gfVig" name="apellido">
+        <modelElement href="mascotAPP1.uml#_nO110DpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmOwzpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmOxDpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nYmOxTpPEe-9uu6I5gfVig" name="getDni">
+      <modelElement href="mascotAPP1.uml#_nO3D8DpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYmOxjpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYmOxzpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nYmOyDpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nO3rADpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nYmOyTpPEe-9uu6I5gfVig" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nYmOyjpPEe-9uu6I5gfVig" name="setDni">
+      <modelElement href="mascotAPP1.uml#_nO45IDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYmOyzpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYmOzDpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nYmOzTpPEe-9uu6I5gfVig" name="dni">
+        <modelElement href="mascotAPP1.uml#_nO45ITpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmOzjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmOzzpPEe-9uu6I5gfVig" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nYmO0DpPEe-9uu6I5gfVig" name="getNacimiento">
+      <modelElement href="mascotAPP1.uml#_nO6HQDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYmO0TpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYmO0jpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nYmO0zpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nQ8uoDpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nYmO1DpPEe-9uu6I5gfVig" name="Date">
+          <modelElement href="mascotAPP1.uml#_nQKrgDpPEe-9uu6I5gfVig"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nYmO1TpPEe-9uu6I5gfVig" name="getPais">
+      <modelElement href="mascotAPP1.uml#_nO8jgDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYmO1jpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYmO1zpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nYmO2DpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nO9xoDpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nYmO2TpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nYmO2jpPEe-9uu6I5gfVig" name="setPais">
+      <modelElement href="mascotAPP1.uml#_nO-_wDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYmO2zpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYmO3DpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nYmO3TpPEe-9uu6I5gfVig" name="pais">
+        <modelElement href="mascotAPP1.uml#_nO_m0DpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmO3jpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmO3zpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nYmO4DpPEe-9uu6I5gfVig" name="toString">
+      <modelElement href="mascotAPP1.uml#_nPCqIDpPEe-9uu6I5gfVig"/>
+      <stereotypes xmi:id="_nYmO4TpPEe-9uu6I5gfVig" name="LegacyStyledElement">
+        <modelElement href="mascotAPP1.uml#_nPFGYDpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <stereotypes xmi:id="_nYmO4jpPEe-9uu6I5gfVig" name="Annotations">
+        <modelElement href="mascotAPP1.uml#_nPG7kDpPEe-9uu6I5gfVig"/>
+      </stereotypes>
+      <visibility xmi:id="_nYmO4zpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYmO5DpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nYmO5TpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nPD4QDpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nYmO5jpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </outParameters>
+    </operations>
+    <operations xmi:id="_nYmO5zpPEe-9uu6I5gfVig" name="Usuario">
+      <modelElement href="mascotAPP1.uml#_nQ2A8DpPEe-9uu6I5gfVig"/>
+      <keywords xmi:id="_nYmO6DpPEe-9uu6I5gfVig" keyword="create"/>
+      <visibility xmi:id="_nYmO6TpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYmO6jpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <outParameters xmi:id="_nYmO6zpPEe-9uu6I5gfVig">
+        <modelElement href="mascotAPP1.uml#_nQ5rUTpPEe-9uu6I5gfVig"/>
+        <type xmi:id="_nYmO7DpPEe-9uu6I5gfVig" name="Usuario">
+          <modelElement href="mascotAPP1.uml#_nOfQgDpPEe-9uu6I5gfVig"/>
+        </type>
+      </outParameters>
+      <parameters xmi:id="_nYmO7TpPEe-9uu6I5gfVig" name="nombre">
+        <modelElement href="mascotAPP1.uml#_nQ2oADpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmO7jpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmO7zpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nYmO8DpPEe-9uu6I5gfVig" name="apellido">
+        <modelElement href="mascotAPP1.uml#_nQ3PEDpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmO8TpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmO8jpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nYmO8zpPEe-9uu6I5gfVig" name="dni">
+        <modelElement href="mascotAPP1.uml#_nQ3PETpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmO9DpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmO9TpPEe-9uu6I5gfVig" name="Integer">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nYmO9jpPEe-9uu6I5gfVig" name="nacimiento">
+        <modelElement href="mascotAPP1.uml#_nQ32IDpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmO9zpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmO-DpPEe-9uu6I5gfVig" name="Date">
+          <modelElement href="mascotAPP1.uml#_nQKrgDpPEe-9uu6I5gfVig"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nYmO-TpPEe-9uu6I5gfVig" name="pais">
+        <modelElement href="mascotAPP1.uml#_nQ32ITpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmO-jpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmO-zpPEe-9uu6I5gfVig" name="String">
+          <modelElement href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nYmO_DpPEe-9uu6I5gfVig" name="sexo">
+        <modelElement href="mascotAPP1.uml#_nQ4dMDpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmO_TpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmO_jpPEe-9uu6I5gfVig" name="SexoHumano">
+          <modelElement href="mascotAPP1.uml#_nQT1cDpPEe-9uu6I5gfVig"/>
+        </type>
+      </parameters>
+      <parameters xmi:id="_nYmO_zpPEe-9uu6I5gfVig" name="mascotas">
+        <modelElement href="mascotAPP1.uml#_nQ4dMTpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmPADpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmPATpPEe-9uu6I5gfVig" name="List">
+          <modelElement href="mascotAPP1.uml#_nQQLEDpPEe-9uu6I5gfVig"/>
+        </type>
+      </parameters>
+    </operations>
+    <operations xmi:id="_nYmPAjpPEe-9uu6I5gfVig" name="setNacimiento">
+      <modelElement href="mascotAPP1.uml#_nQ98wDpPEe-9uu6I5gfVig"/>
+      <visibility xmi:id="_nYmPAzpPEe-9uu6I5gfVig" label="+"/>
+      <cardinality xmi:id="_nYmPBDpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+      <parameters xmi:id="_nYmPBTpPEe-9uu6I5gfVig" name="nacimiento">
+        <modelElement href="mascotAPP1.uml#_nQ98wTpPEe-9uu6I5gfVig"/>
+        <cardinality xmi:id="_nYmPBjpPEe-9uu6I5gfVig" label="1" max="1" min="1"/>
+        <type xmi:id="_nYmPBzpPEe-9uu6I5gfVig" name="Date">
+          <modelElement href="mascotAPP1.uml#_nQKrgDpPEe-9uu6I5gfVig"/>
+        </type>
+      </parameters>
+    </operations>
+  </nodes>
+</com.yattasolutions.uml.diagrams.classifier:ClassDiagram>
