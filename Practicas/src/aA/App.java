@@ -11,6 +11,7 @@ public class App {
 			nombre = leer.next();
 			System.out.println("hola mundo, soy " +nombre+ " y estoy bla bla bla");
 		}
+
 	}
 
 }
